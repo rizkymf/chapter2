@@ -6,6 +6,10 @@ public class Cleaner {
 
     InterfaceClass interfaceClass;
 
+    public Cleaner(InterfaceClass interfaceClass) {
+        this.interfaceClass = interfaceClass;
+    }
+
     public void gosipinTetangga() {
         Robot robot = new Robot();
 

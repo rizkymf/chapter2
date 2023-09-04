@@ -9,7 +9,7 @@ public class InterfaceClassImplementasi implements InterfaceClass{
 
     @Override
     public void autoPublicAbstract() {
-
+        System.out.println("auto public abstract nich");
     }
 
     @Override
